@@ -1,0 +1,257 @@
+*, body {
+    font-family: 'League Spartan', sans-serif;
+    color: rgb(46, 46, 46);
+}
+
+/* navbar */
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+
+/* .nav-item .nav-link{
+    color: rgb(241, 241, 241)!important;
+    font-size: 14px!important;
+}
+.navbar .nav-item .nav-link .active:visited::after{
+    border-bottom: 3px solid yellow;
+    content: '';
+    display: block;
+    width: 60%;
+    padding-bottom: 5px;
+    margin: auto;
+} */
+
+
+
+/* jumbotron */
+.jumbotron {
+    background-color: #277BC0;
+    background-size: cover;
+    height: 1000px;
+    margin-top: -130px;
+    padding-top: 200px;
+}
+.jumbotron .container {
+    position: relative;
+    z-index: 1;
+}
+.jumbotron h4 {
+    font-family: 'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 97px;
+    color: white;
+    position: relative;
+}
+/* .jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+} */
+
+
+/* panel */
+.panel{
+    background-color:  #FFB200;
+    margin-top: -70px;
+    box-shadow: 0 3px 20px rgba(0,0,0,0.4);
+    border-radius: 12px;
+    padding: 30px;
+    color: white;
+}
+
+/* testi card */
+.testi .card .card-body{
+    padding: 15px;
+}
+.testi .card {
+    border: none;
+}
+.testi p, .foot p{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* utility */
+.tombol {
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 10px!important;
+    background-color: #FFB200!important;
+    border: none!important;
+}
+.ml-30 {
+    margin-left: 30px;
+}
+.mt-100{
+    margin-top: 100px;
+    background-color: rgb(241, 241, 241);
+}
+.mt-80{
+    margin-top: 80px;
+    background-color: rgb(241, 241, 241);
+}
+.mt-63{
+    margin-top: 63px;
+    background-color: rgb(241, 241, 241);
+}
+.mt-120{
+    margin-top: 120px;
+    background-color: rgb(241, 241, 241);
+}
+.mb-100{
+    margin-bottom: 100px;
+    background-color: rgb(241, 241, 241);
+}
+.mb-120{
+    margin-bottom: 120px;
+    background-color: rgb(241, 241, 241);
+}
+.mt-200{
+    margin-top: 200px;
+    background-color: rgb(241, 241, 241);
+}
+.pt-100{
+    padding-top: 100px; 
+}
+.pb-120{
+    padding-bottom: 120px;
+}
+.pt-200 {
+    padding-top: 200px;
+    background-color: rgb(241, 241, 241);
+}
+.mt-300{
+    margin-top: 300px;
+    background-color: rgb(241, 241, 241);
+}
+.cw {
+    background-color: rgb(241,241,241);
+}
+
+.elemen1, .elemen2, .elemen3, .elemen4, .elemen5, .elemen6, .elemen7, 
+.elemen8, .elemen9, .elemen10, .elemen11{
+    width: 0%;
+}
+
+
+
+/* footer */
+.foot {
+    background-color: #FFF4CF;
+    padding: 40px;
+}
+footer .footer small{
+    color: rgb(241, 241, 241);
+}
+
+/* desktop version */
+@media (min-width: 992px) {
+    .nav-link {
+        text-transform: uppercase;
+    }
+    .nav-link:hover::after {
+        border-bottom: 3px solid #FFB200;
+        content: '';
+        display: block;
+        width: 60%;
+        padding-bottom: 5px;
+        margin: auto;
+    } 
+    .jumbotron {
+        margin-top: -75px ;
+        height: 730px;
+    }
+    .elemen1{
+        position: absolute; left: 100px; z-index: 1; width: 30%; bottom: 7700px;
+    }
+    .elemen2{
+        position:absolute; left: -40px; top: 2800px; z-index: 1; width:200px;
+    }
+    .elemen3{
+        position:absolute; right: 10px; top: 2700px; z-index: 1; width:70px;
+    }
+    .elemen4{
+        position:absolute; left: 100px; top: 2700px; z-index: 1; width:100px;
+    }
+    .elemen5{
+        position: absolute; 
+        left: 300px; 
+        z-index: 1; 
+        top: 4630px; 
+        width: 370px 
+    }
+    .elemen6{
+        position: absolute; right: 0px; top: 640px; z-index: 1;
+    }
+    .elemen7{
+        position:absolute; left: -40px; top: 1000px; z-index: 1; width:200px;
+    }
+    .elemen8{
+        position:absolute; left: 300px; top: 840px; z-index: 1; width:70px;
+    }
+    .elemen9{
+        position:absolute; right: 10px; top: 1400px; z-index: 1; width:200px;
+    }
+    .elemen10{
+        position:absolute; left: -40px; top: 2300px; z-index: 1; width:200px;
+    }
+    .elemen11{
+        position:absolute; right: 0px; top: 2100px; z-index: 1; width:100px;
+    }
+}
+
+@media (min-width: 760px) and (max-width: 990px) { 
+    .jumbotron {
+        margin-top: -75px ;
+        height: 600px;
+    }
+ }
+
+
+
+/* ABOUT HTML */
+.intro p, .vm p{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+}
+
+/* partner */
+.partner h4 {
+    text-align: center;
+    color: #277BC0;
+}
+
+/* faq */
+.faq {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #D2EFFF;
+    border-radius: 100%;
+    bottom: 40px;
+    right: 50px;
+
+    text-decoration: none;
+    text-align:center;
+    line-height: 50px;
+    color: #405982;
+    font-size: 20px;
+    box-shadow: 15px 15px 15px rgba(0,0,0,0.05);
+    z-index: 3;
+}
+.card .card-body{
+   background-color: rgb(241, 241, 241);
+}
